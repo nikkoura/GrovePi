@@ -94,6 +94,11 @@ module.exports = {
   , flowEn                                      : [18]
   , flowDis                                     : [13]
 
+  // 433 MHz simple link: RCSwitch support
+  , rcSwitch433mhzTXsend                        : [110]
+  , rcSwitch433mhzRXsubscribe                   : [111]
+  , rcSwitch433mhzRXread                        : [112]
+
   // This allows us to be more specific about which commands contain unused bytes
   , unused                                      : 0
 };

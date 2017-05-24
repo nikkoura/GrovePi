@@ -25,5 +25,6 @@ module.exports.GrovePi = {
     , dustDigital: require('./sensors/dustDigitalSensor')
     , encoderDigital: require('./sensors/encoderDigitalSensor')
     , waterFlowDigital: require('./sensors/waterFlowDigitalSensor')
+    , RFLinkRCSwitchTX: require('./sensors/rflink433mhzTxRCSwitch')
   }
 }
